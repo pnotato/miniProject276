@@ -29,12 +29,10 @@ body {
 /* WELCOME SECTION */
 
 .welcome-screen { 
-    background-color: blue;
     flex-direction: row;
 }
 
 .welcome-text-section {
-    background: red;
     display:flex;
     flex-direction: column;
     height: 50vh;
