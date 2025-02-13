@@ -163,3 +163,16 @@ body {
     font-weight: bold;
     z-index: 2; /* Ensures text is above the overlay */
 }
+
+/* FOOTER */
+
+footer {
+    height: 12.5vh;
+    background-color: #0C1821;
+    color: #E1D9D1;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 2.5vw;
+    padding: 20px;
+}
