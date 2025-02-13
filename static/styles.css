@@ -1,0 +1,30 @@
+body {
+    background-color: white;
+    height: 300vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.screen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10vh;
+    height: 110vh;
+}
+
+.welcome-screen { 
+    background-color: blue;
+    flex-direction: row;
+}
+
+.about-screen {
+    background-color: #0c1821;
+    flex-direction: row;
+}
+
+.project-screen {
+    background-color: green;
+    flex-direction: column;
+}
