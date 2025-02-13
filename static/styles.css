@@ -30,7 +30,7 @@ body {
 .icon::after {
     content: attr(data-tooltip);
     position: absolute;
-    bottom: -35px; /* Position below the icon */
+    bottom: -35px;
     left: 50%;
     transform: translateX(-50%);
     background-color: rgba(0, 0, 0, 0.5);
