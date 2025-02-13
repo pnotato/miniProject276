@@ -22,6 +22,10 @@ body {
     color: black;
 }
 
+.hyperlink-text {
+    text-decoration: none;
+}
+
 /* WELCOME SECTION */
 
 .welcome-screen { 
