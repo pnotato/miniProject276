@@ -1,0 +1,82 @@
+body {
+    background-color: white;
+    height: 300vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+/* SECTION DEFINITIONS */
+
+.screen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10vh;
+    height: 110vh;
+}
+
+.title-text {
+    font-size: 2.5em;
+    font-weight: bold;
+    color: black;
+}
+
+/* WELCOME SECTION */
+
+.welcome-screen { 
+    background-color: blue;
+    flex-direction: row;
+}
+
+.welcome-text-section {
+    background: red;
+    display:flex;
+    flex-direction: column;
+    height: 50vh;
+    width: 32vw;
+    justify-content: center;
+    align-items: left;
+}
+
+.welcome-image-section {
+    background-image: url(./images/temp.jpg);
+    background-size: cover;
+    border-radius: 20px;
+    height: 60vh;
+    aspect-ratio: 4/3;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+/* ABOUT ME SECTION */
+
+.about-screen {
+    background-color: #0c1821;
+    flex-direction: row;
+}
+
+.about-text-section {
+    background: red;
+    display:flex;
+    flex-direction: column;
+    height: 50vh;
+    width: 32vw;
+    justify-content: center;
+    align-items: left;
+}
+
+.about-image-section {
+    background-image: url(./images/temp.jpg);
+    background-size: cover;
+    border-radius: 20px;
+    height: 60vh;
+    aspect-ratio: 4/3;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+/* PROJECTS SECTION */
+
+.project-screen {
+    background-color: green;
+    flex-direction: column;
+}
