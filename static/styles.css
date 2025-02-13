@@ -135,7 +135,6 @@ body {
 }
 
 .about-text-section {
-    background: red;
     display:flex;
     flex-direction: column;
     height: 50vh;
@@ -153,10 +152,13 @@ body {
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
 }
 
+.about-title {
+    color: white !important;
+}
+
 /* PROJECTS SECTION */
 
 .project-screen {
-    background-color: green;
     flex-direction: column;
 }
 
@@ -175,14 +177,14 @@ body {
 
 .project-image {
     position: relative;
-    width: 300px;  /* Adjust size as needed */
-    height: 200px; /* Adjust size as needed */
+    width: 300px;  
+    height: 200px; 
     background-size: fill;
     background-position: center;
     overflow: hidden;
     display: flex;
-    align-items: flex-start; /* Align text near the top */
-    justify-content: center; /* Center text horizontally */
+    align-items: flex-start; 
+    justify-content: center; 
     border-radius: 20px;
 }
 
