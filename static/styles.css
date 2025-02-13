@@ -197,7 +197,6 @@ body {
     background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
     z-index: 1; 
     border-radius: 20px;
-    
 }
 
 .project-text {
@@ -226,16 +225,14 @@ body {
 .rev-footer {
     position: absolute;
     right: 20px;
-    color: #E1D9D1;
     text-decoration: none;
 }
 
 .footer-item {
-    color: #E1D9D1;
     text-decoration: none;
     transition: color 0.3s ease, text-decoration 0.3s ease;
 }
 
 .footer-item:hover {
-    color: white; /* Change to any hover color you prefer */
+    color: white;
 }
