@@ -5,3 +5,13 @@ This is a version of my portfolio website built for CMPT 276: Introduction to so
 # Tech Stack
 
 This website was built with pure HTML and CSS.
+
+# Usage
+
+You can access this website by cloning the repo
+
+```
+git clone https://github.com/pnotato/miniProject276
+```
+
+and opening the index.html file.
