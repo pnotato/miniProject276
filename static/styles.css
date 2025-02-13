@@ -163,3 +163,33 @@ body {
     font-weight: bold;
     z-index: 2; /* Ensures text is above the overlay */
 }
+
+/* FOOTER */
+
+footer {
+    height: 12.5vh;
+    background-color: #0C1821;
+    color: #E1D9D1;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 2.5vw;
+    padding: 20px;
+}
+
+.rev-footer {
+    position: absolute;
+    right: 20px;
+    color: #E1D9D1;
+    text-decoration: none;
+}
+
+.footer-item {
+    color: #E1D9D1;
+    text-decoration: none;
+    transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+.footer-item:hover {
+    color: white; /* Change to any hover color you prefer */
+}
