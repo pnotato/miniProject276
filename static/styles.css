@@ -52,6 +52,39 @@ body {
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
 }
 
+.social-icons {
+    height: 10vh;
+    display: flex;
+    gap: 5vh;
+    flex-direction: row;
+}
+
+.icon {
+    background-size: cover;
+    border-radius: 15px;
+}
+
+.linkedin-icon {
+    background-image: url(./icons/linkedin.png);
+    aspect-ratio: 1/1;
+}
+
+.github-icon {
+    background-image: url(./icons/github.png);
+    aspect-ratio: 1/1;
+}
+
+.email-icon {
+    background-image: url(./icons/email.jpg);
+    aspect-ratio: 1/1;
+}
+
+.resume-icon {
+    background-image: url(./icons/resume.png);
+    aspect-ratio: 1/1;
+}
+
+
 /* ABOUT ME SECTION */
 
 .about-screen {
