@@ -6,6 +6,50 @@ body {
     flex-direction: column;
 }
 
+/* PRESSABLE HOVER ANIMATIONS */
+
+.icon {
+    background-size: cover;
+    border-radius: 15px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+    transition: transform 0.2s ease, box-shadow 0.2s ease, filter 0.2s ease;
+}
+
+.icon:hover {
+    transform: scale(1.1); 
+    box-shadow: 15px 15px 25px rgba(0, 0, 0, 0.7); 
+    filter: brightness(1.2);
+}
+
+.icon:active {
+    transform: scale(0.95); 
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4); 
+    filter: brightness(0.9); 
+}
+
+.icon::after {
+    content: attr(data-tooltip);
+    position: absolute;
+    bottom: -35px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    white-space: nowrap;
+    opacity: 1;
+    visibility: hidden;
+    transition: opacity 0.2s ease, visibility 0.2s ease;
+}
+
+.icon:hover::after {
+    opacity: 1;
+    visibility: visible;
+}
+
+
 /* SECTION DEFINITIONS */
 
 .screen{
